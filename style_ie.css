@@ -1,0 +1,506 @@
+body{
+background-color: #e6e6e6 ;
+color: #2a2a2a;
+margin : 0 auto;
+}
+
+#header{
+background-color: #363636;
+}
+
+.header_user_welcome{
+position: absolute;
+right: 0px;
+padding: 10px;
+border-left: 1px solid #000;
+color: #dadada;
+}
+
+.select_grade{
+border: 0px;
+background-color: #d6d7d7;
+font-size: 14px;
+color: #444;
+margin-top: 10px;
+}
+.select_grade_labs{
+border: 0px;
+background-color: #d6d7d7;
+font-size: 14px;
+color: #444;
+margin-left:-10px;
+margin-top: 10px;
+}
+.input_grade{
+text-align: right;
+background-color: #d6d7d7;
+margin-left: 20px;
+margin-top: 10px;
+}
+.input_grade_comment{
+background-color: #d6d7d7;
+margin-left: 20px;
+margin-top: 10px;
+}
+
+.menu{
+margin-top: 50px;
+margin-bottom: 50px;
+height: 100px;
+color: #111;
+}
+.menu_right_start{
+background-image: url('images/menu_right_start.png');
+background-repeat: no-repeat;
+width: 99px;
+height: 100px;
+display: block;
+float: right;
+padding-top: 30px;
+padding-left: 11px;
+margin-right: -12px;
+font-size: 22px;
+}
+.menu_left_finish{
+background-image: url('images/menu_left_finish.png');
+background-repeat: no-repeat;
+width: 94px;
+height: 100px;
+display: block;
+float: right;
+padding-top: 30px;
+padding-left: 15px;
+font-size: 22px;
+}
+.menu_middle{
+background-image: url('images/menu_middle.png');
+background-repeat: no-repeat;
+width: 94px;
+height: 100px;
+display: block;
+float: right;
+padding-top: 30px;
+padding-left: 10px;
+margin-right: -6px;
+font-size: 22px;
+}
+
+.function{
+min-height: 160px;
+padding-top: 50px;
+color: #4a4a4a;
+margin-bottom: 80px;
+}
+.function_hidden{
+display: none;
+}
+
+.element{
+background-image: url('images/cloud1.png');
+height: 118px;
+width: 210px;
+margin-left: 15%;
+display: inline-block;
+}
+.element_small{
+background-image: url('images/cloud2.png');
+width: 370px;
+height: 90px;
+margin: 0 auto;
+}
+.element_acp{
+background-color:#d7d7d7;
+height: 180px;
+width: 300px;
+margin: 0 auto;
+}
+.element_acp_new_lab{
+background-color:#d7d7d7;
+height: 500px;
+width: 480px;
+margin: 0 auto;
+}
+.element_acp_new_class{
+background-color:#d7d7d7;
+height: 500px;
+width: 480px;
+margin: 0 auto;
+}
+.element_alone{
+width:100%;
+display: inline-block;
+}
+.in_element{
+font-size: 18px;
+font-weight: bold;
+padding-top: 40px;
+margin-left: 53px;
+}
+.in_element_alone{
+background-color:#d6d7d7;
+font-weight: bold;
+padding-top: 10px;
+margin-left: 20px;
+text-align: left;
+padding: 35px;
+width: 270px;
+}
+.in_element_less_top{
+font-size: 18px;
+font-weight: bold;
+padding-top: 30px;
+margin-left: 53px;
+}
+.element_small_acp{
+background-color:#d7d7d7;
+width: 430px;
+height: 120px;
+margin: 0 auto;
+}
+.element_small_acp2{
+background-color:#d7d7d7;
+width: 370px;
+height: 160px;
+margin: 0 auto;
+}
+.element_small_acp3{
+background-color:#d7d7d7;
+width: 390px;
+height: 160px;
+margin: 0 auto;
+}
+.in_element_acp{
+font-size: 18px;
+font-weight: bold;
+padding-top: 70px;
+margin-left: 53px;
+}
+.in_element_acp2{
+font-size: 18px;
+font-weight: bold;
+padding-top: 60px;
+margin-left: 23px;
+}
+.element_edit_grade_admin{
+background-color: #c5c5c5;
+height: 250px;
+width: 260px;
+margin: 0 auto;
+}
+.show_user_name{
+font-size: 16px;
+margin-top: 10px;
+display: block;
+margin-left: 40px;
+}
+
+.seperator{
+margin-top: 20px;
+margin-bottom: 20px;
+height: 100px;
+background-image: url('images/seperator.png');
+background-position: center bottom;
+width: 100%;
+background-repeat: no-repeat;
+}
+.seperator_h2{
+display: inline-block;
+margin-top: -5px;
+}
+.seperator_img{
+width: 17px;
+height: 15px;
+margin-right: 5px;
+}
+
+.grades_showcase{
+background-color: #d7d7d7;
+width: 35%;
+padding-left: 30px;
+padding-top: 1px;
+padding-bottom: 1px;
+float:left;
+margin-left:9%;
+}
+.user_grades_table{
+border: none;
+padding-bottom: 25px;
+padding-right: 20px;
+margin: 0 auto;
+border-color: #ddd;
+}
+.grades_h4{
+border-bottom-style: solid;
+border-width: 2px;
+padding-bottom: 10px;
+}
+.grades_seperation{
+width: 100%;
+display: inline-block;
+margin-bottom: 10px;
+}
+.grades_admin_cell{
+margin: 0 auto;
+padding: 1px;
+}
+.grades_admin_cell_ul{
+list-style-type: none;
+margin-left: -10px;
+}
+.grades_pass{
+background-color: #ddffdd;
+}
+.grades_fail{
+background-color: #ffa0a0;
+}
+.prefix_span_lab{
+color: #636597;
+}
+.prefix_span_theory{
+color: #8F6969;
+}
+
+.example_text{
+margin-left: 20px;
+font-size: 12px;
+}
+.example_text_admin{
+font-size: 12px;
+}
+.timestamp_text{
+font-size: 13px;
+}
+.checkbox_small_text{
+margin-left: 10px;
+font-size: 14px;
+}
+
+#choose_class{
+display:none;
+}
+#choose_user{
+display:none;
+}
+
+.pop_up{
+width:100%;
+position: fixed;
+top: 0;
+display:none;
+}
+#notification{
+padding-top: 5px;
+border-style: solid;
+border-width: 2px;
+border-color: #431;;
+width: 400px;
+border-top-style: none;
+min-height: 30px;
+background-color: #deded7;
+}
+
+.no_color_link{
+color: #2a2a4a;
+text-decoration: none;
+}
+.no_color_link:hover{
+text-shadow: 1px 1px 2px #999;
+}
+.no_color_link_in_element{
+color: #2a2a6a;
+font-size: 16px;
+}
+.no_color_link_in_element:hover{
+text-shadow: 1px 1px 1px #999;
+}
+.no_color_link_in_element_user{
+color: #2a2a6a;
+font-size: 14px;
+}
+.no_color_link_in_element_user:hover{
+text-shadow: 1px 1px 1px #999;
+}
+
+.no_border_td{
+border : none;
+}
+
+.locked_lab_select{
+color: #626262;
+}
+
+.background_button{
+background-color: #d6d7d7;
+}
+
+#footer{
+margin-top: 100px;
+}
+
+#announcments{
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+margin-bottom: 100px;
+margin-top: 70px;
+}
+#header_ann{
+height: 20px;
+background-color: #333;
+color: #c8c8c8;
+overflow:hidden;
+}
+#content{
+background-color: #c5c5c5;
+text-align: center;
+}
+.ann_list{
+display: inline-block;
+border-right: 1px solid black;
+padding-right: 15px;
+margin-left: 15px;
+cursor: hand; 
+cursor: pointer;
+}
+.ann_list:first-child{
+border-left: 1px solid black;
+padding-left: 15px;
+
+}
+.ann_list_nb{
+border: none;
+display: inline-block;
+padding-right: 15px;
+margin-left: 15px;
+cursor: hand; 
+cursor: pointer;
+}
+.ann_list_ul{
+/* -20px top per 5 */
+margin: 0 auto;
+list-style-type: none;
+padding: 0px;
+text-align: center;
+}
+.ann_hidden{
+display:none;
+}
+.ann_show{
+padding: 15px;
+display:block;
+}
+
+.public_comment_edit_button{
+background-image: url('images/public_com.png');
+width: 70px;
+height: 70px;
+background-size: 70px;
+margin: 0 auto;
+display: inline-block;
+margin-left: -50px;
+float: left;
+cursor: hand; 
+cursor: pointer;
+}
+
+.private_comment_edit_button{
+background-image: url('images/private_com.png');
+width: 60px;
+height: 60px;
+background-size: 60px;
+margin: 0 auto;
+display: inline-block;
+margin-right: -50px;
+float: right;
+cursor: hand; 
+cursor: pointer;
+}
+
+#edit_public_comment_area{
+float: left;
+width: 263px;
+height: 111px;
+margin-left: -350px;
+display: none;
+}
+#edit_private_comment_area{
+float: right;
+width: 263px;
+height: 111px;
+margin-right: -350px;
+display: none;
+}
+
+.edit_com_header{
+background-image: url('images/edit_com_header.png');
+height: 15px;
+background-size: 265px 15px;
+background-position-x: -1px;
+text-align: center;
+color: #ddd;
+font-size: 12px;
+}
+
+.edit_com_container{
+border: 1px solid black;
+height: 100px;
+background-color: #ccc;
+padding-top: 15px;
+text-align: center;
+}
+
+#comments_container{
+width: 50%;
+border: 2px solid black;
+position: fixed;
+top: 35%;
+background-color: #999;
+display: none;
+margin-left: 25%;
+z-index: 99;
+padding: 15px;
+text-align: center;
+}
+
+#shadow_under_popup{
+position: fixed;
+background-color: black;
+opacity: 0.6;
+min-height: 200%;
+width: 100%;
+z-index: 90;
+top: 0;
+display: none;
+}
+
+
+.cenctered_dropdown_acp3_small{
+border: 0px;
+background-color: #d6d7d7;
+font-size: 14px;
+color: #444;
+margin-top: 10px;
+margin-left: 30%;
+}
+.hidden{
+display: none;
+}
+
+.bright_red_font{
+color: #FF0000;
+}
+
+#user_classes_tabs {
+width: 46%;
+margin: 0 auto;
+margin-bottom: -20px;
+}
+.class_tabs_user{
+padding: 10px;
+border: 1px rgb(157, 157, 157) solid;
+cursor: pointer;
+display: inline-block;
+width: 40%;
+}
+.selected_tab{
+background-color: #D8D8D8;
+}
