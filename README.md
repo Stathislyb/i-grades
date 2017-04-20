@@ -4,6 +4,7 @@ Grade managing website
 Demo available at : http://snf-703457.vm.okeanos.grnet.gr/uowm/igrades/index.php
 
 Account Username : guest
+
 Account Password : guest
 
 Live use at https://arch.icte.uowm.gr/schedule/index.php?entry=igrades
